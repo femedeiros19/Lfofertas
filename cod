@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Nosso Grupo!</title>
+
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Using the 'Inter' font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple animation for cards */
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: transform 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900">
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+
+        <main class="w-full max-w-lg bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-6 md:p-8 text-center text-gray-800 dark:text-gray-200">
+
+            <!-- Group Header -->
+            <header class="mb-8">
+                <!-- Image container -->
+                <div class="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden shadow-lg flex items-center justify-center bg-white">
+                    <!-- Your Image -->
+                    <img src="https://i.imgur.com/xoJ7P96.png" alt="Logo do Grupo" class="w-30 h-30 object-cover">
+                </div>
+
+                <h1 class="text-3xl font-bold text-gray-900 dark:text-white">
+                    <!-- EDITE AQUI: Nome do seu grupo -->
+                    LF Ofertas
+                </h1>
+                <p class="text-gray-500 dark:text-gray-400 mt-2">
+                    <!-- EDITE AQUI: Uma breve descrição para o seu grupo -->
+                    Lugar de muitas promoções e muitos cupons
+                </p>
+            </header>
+
+            <!-- Main Action Button -->
+            <div class="mb-8">
+                <!-- EDITE AQUI: Adicione o link do seu grupo do WhatsApp no href -->
+                <a href="https://chat.whatsapp.com/HcA7drbIx3aBZQH7CuTj83" class="block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Entrar no Grupo
+                </a>
+            </div>
+
+            <!-- Group Rules Section -->
+            <section class="text-left mb-8">
+                <h2 class="text-xl font-semibold mb-4 text-gray-900 dark:text-white">📜 Nossas Regras</h2>
+                <ul class="space-y-3 text-gray-600 dark:text-gray-300">
+                    <!-- EDITE AQUI: Regras do Grupo -->
+                    <li class="flex items-start">
+                        <span class="mr-3 mt-1">✅</span> Respeito é a base de tudo.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 mt-1">🚫</span> Sem spam, correntes ou links suspeitos.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 mt-1">💬</span> Mantenha o foco no tema do grupo.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 mt-1">🎉</span> Divirta-se e contribua!
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Useful Links Section -->
+            <section class="text-left">
+                <h2 class="text-xl font-semibold mb-4 text-gray-900 dark:text-white">🔗 Links Úteis</h2>
+                <div class="space-y-3">
+                    <!-- EDITE AQUI: Adicione links úteis relacionados ao seu grupo -->
+                    <a href="#" class="card-hover flex items-center p-3 bg-gray-100 dark:bg-gray-700 rounded-lg transition">
+                        <span class="mr-3">📁</span> Documentos do Projeto
+                    </a>
+                    <a href="#" class="card-hover flex items-center p-3 bg-gray-100 dark:bg-gray-700 rounded-lg transition">
+                        <span class="mr-3">📅</span> Agenda de Eventos
+                    </a>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-8 text-gray-500 dark:text-gray-400 text-sm">
+            <p>Este é um espaço para nossa comunidade.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
